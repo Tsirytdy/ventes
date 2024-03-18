@@ -85,7 +85,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+          <Link to="/" style={{ textDecoration: "none", color: "inherit", cursor: "pointer }}>
             <Logo>Ventesmg</Logo>
           </Link>
         </Center>
@@ -96,13 +96,13 @@ const Navbar = () => {
             <>
               <Link
                 to="/register"
-                style={{ textDecoration: "none", color: "inherit" }}
+                style={{ textDecoration: "none", color: "inherit", cursor: "pointer"}}
               >
                 <MenuItem>S'ENREGISTRER</MenuItem>
               </Link>
               <Link
                 to="/login"
-                style={{ textDecoration: "none", color: "inherit" }}
+                style={{ textDecoration: "none", color: "inherit", cursor: "pointer }}
               >
                 <MenuItem>CONNEXION</MenuItem>
               </Link>
